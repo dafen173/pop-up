@@ -7,7 +7,6 @@ body {
 .nav {
 	display: block;
 	height: auto;
-
 }
 
 .menu {
@@ -19,8 +18,10 @@ body {
 }
 
 .menuItem {
+	/*
 	display: flex;
 	list-style-type: none;
+	*/
 	margin-left: 20px;
 }
 
@@ -38,7 +39,7 @@ body {
 .triangle {
 	display: none;
 	position: absolute;
-	top: 55px;
+	top: 49px;
 	right: 116px;
 	width: 0;
 	height: 0;
@@ -62,13 +63,13 @@ body {
 .popUp,
 .MoreApps {
 	position: absolute;
-	overflow-y: auto;
+	/*overflow-y: auto;*/
 	clip: rect(0 0 0 0);
 }
 
 .button {
 	margin-left: 20px;
-	background-image: url(../Icons/dots.png);
+	background-image: url(Icons/dots.png);
 	background-size: cover;
 	cursor: pointer;
 }
@@ -80,7 +81,7 @@ body {
 .menuItem:hover,
 .button:hover {
 	text-decoration: underline;
-	opacity: 0.7;
+	opacity: 0.5;
 }
 
 .iconsContainer {
@@ -88,11 +89,11 @@ body {
 	position: absolute;
 	width: 280px;
 	height: 362px;
-	top: 66px;
+	top: 60px;
 	border: 1px solid #d4d4d4;
 	border-radius: 2px;
-	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
-	overflow-y: auto;
+	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.7);
+	/*overflow-y: auto;*/
 }
 
 .popupIcons,
@@ -107,7 +108,7 @@ body {
 .popupIconsItem,
 .hidden {
 	display: flex;
-	justify-content: center;
+	/*justify-content: start;*/
 	width: 70px;
 	margin-top: 10px;
 	margin-bottom: 10px;
