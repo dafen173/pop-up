@@ -3,11 +3,13 @@ body {
 	font-family: "Montserrat", "Arial", sans-serif;
 	font-size: 16px;
 }
+/*ПРОЙДЕНО*/
 
 .nav {
 	display: block;
 	height: auto;
 }
+/*ПРОЙДЕНО*/
 
 .menu {
 	margin-right: 20px;
@@ -16,25 +18,31 @@ body {
 	justify-content: flex-end;
 	align-items: center;
 }
+/*ПРОЙДЕНО*/
 
 .menuItem {
 	/*
 	display: flex;
 	list-style-type: none;
 	*/
+
 	margin-left: 20px;
 }
+/*ПРОЙДЕНО*/
 
 .menu img,
 .button {
 	width: 24px;
 	height: 24px;
 }
+/*ПРОЙДЕНО*/
 
+/*
 .ava {
 	width: 36px;
 	height: 36px;
 }
+*/
 
 .triangle {
 	display: none;
@@ -48,6 +56,7 @@ body {
 	border-right: 12px solid transparent;
 	border-bottom: 12px solid #d4d4d4;
 }
+/*ПРОЙДЕНО*/
 
 .empty {
 	position: absolute;
@@ -59,6 +68,7 @@ body {
 	border-right: 10px solid transparent;
 	border-bottom: 10px solid #fff;
 }
+/*ПРОЙДЕНО*/
 
 .popUp,
 .MoreApps {
@@ -66,6 +76,7 @@ body {
 	/*overflow-y: auto;*/
 	clip: rect(0 0 0 0);
 }
+/*ПРОЙДЕНО*/
 
 .button {
 	margin-left: 20px;
@@ -73,16 +84,19 @@ body {
 	background-size: cover;
 	cursor: pointer;
 }
+/*ПРОЙДЕНО*/
 
 .menu:hover {
 	cursor: pointer;
 }
+/*ПРОЙДЕНО*/
 
 .menuItem:hover,
 .button:hover {
 	text-decoration: underline;
 	opacity: 0.5;
 }
+/*ПРОЙДЕНО*/
 
 .iconsContainer {
 	display: none;
@@ -95,6 +109,7 @@ body {
 	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.7);
 	/*overflow-y: auto;*/
 }
+/*ПРОЙДЕНО*/
 
 .popupIcons,
 .hiddenBlock {
@@ -104,6 +119,7 @@ body {
 	justify-content: center;
 	padding: 0;
 }
+/*ПРОЙДЕНО*/
 
 .popupIconsItem,
 .hidden {
@@ -114,28 +130,33 @@ body {
 	margin-bottom: 10px;
 	padding: 5px 5px 0 5px;
 }
-
+/*ПРОЙДЕНО*/
 
 .popupIconsItem a:hover {
 	outline: 1px solid #a1a1a1;
 }
+/*ПРОЙДЕНО*/
 
+/*
 .space:hover {
 	outline: none;
 }
+*/
 
 .popupIcons a,
 .hiddenBlock a {
 	text-decoration: none;
-	color: #111;
+	color: black;
 	padding: 2px;
 	width: 100%;
 	height: 100%;
 }
+/*ПРОЙДЕНО*/
 
 .popupIconsItem a:focus {
 	outline: 1px solid #3f56fb;
 }
+/*ПРОЙДЕНО*/
 
 .popupIconsItem img,
 .hiddenBlock img {
@@ -145,50 +166,62 @@ body {
 	margin-right: auto;
 	margin-left: auto;
 }
+/*ПРОЙДЕНО*/
 
 .captions {
 	margin-top: 5px;
 	text-align: center;
 }
+/*ПРОЙДЕНО*/
 
 .popUp:checked ~ .iconsContainer {
 	display: block;
 }
+/*ПРОЙДЕНО*/
 
 .popUp:checked ~ .triangle {
 	display: block;
 }
+/*ПРОЙДЕНО*/
 
 .MorePopUp {
 	display: block;
 	margin-top: 10px;
-	margin-left: 0;
+	/*margin-left: 0;*/
 	line-height: 35px;
 	text-align: center;
 	width: 280px;
 	background-color: #eee;
 	font-size: 16px;
 }
+/*ПРОЙДЕНО*/
 
 .hiddenBlock,
 .line {
 	display: none;
 }
+/*ПРОЙДЕНО*/
 
 .line {
 	color: #eee;
 	width: 200px;
-	margin-left: 40px;
+	/*margin-left: 40px;*/
 	opacity: 0.5;
+
+	margin-right: auto;
+	margin-left: auto;
 }
+/*ПРОЙДЕНО*/
 
 .MoreApps:checked ~ .MorePopUp {
 	display: none;
 }
+/*ПРОЙДЕНО*/
 
 .MoreApps:checked ~ .line {
-	display: inline-block;
+	display: block;
 }
+/*ПРОЙДЕНО*/
 
 .MoreApps:checked ~ .hiddenBlock {
 	display: flex;
