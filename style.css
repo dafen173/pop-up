@@ -59,7 +59,7 @@ body {
 
 .button {
 	margin-left: 20px;
-	background-image: url(Icons/dots.png);
+	background-image: url(icons/dots.png);
 	background-size: cover;
 	cursor: pointer;
 }
